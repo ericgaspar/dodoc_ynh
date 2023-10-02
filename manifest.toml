@@ -56,15 +56,10 @@ ram.runtime = "50M"
 
     [resources.install_dir]
 
-    [resources.data_dir]
-
     [resources.permissions]
     main.url = "/"
 
     [resources.ports]
 
     [resources.apt]
-    packages = "deb1, deb2, php8.0-foo, php8.0-bar"
-
-    [resources.database]
-    type = "mysql"
+    packages = "ffmpeg"
